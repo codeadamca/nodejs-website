@@ -13,7 +13,7 @@ This tutorial will walk you through the creation of a very basic website using o
 5. Create a new file called app.js. 
 6. In app.js import the required modules:
 
-```
+```js
 var http = require('http');
 var url = require('url');
 var fs = require('fs');
@@ -21,7 +21,7 @@ var fs = require('fs');
 
 7. Create an http server:
 
-```
+```js
 http.createServer(function (req, res) {
 }).listen(8080);
 ```
@@ -30,14 +30,14 @@ This will start a web server. The server is available to test by opening a brows
 
 8. Inside the `createServer` function add code to fetch the current URL:
 
-```
+```js
 var q = url.parse(req.url, true);
 var filename = "." + q.pathname;
 ```
    
 9. Inside the `createServer` function, after the the previous lines of code, add code to load the appropriate HTML file based on the URL. For example the URL `http://localhost:8080/index.html` will should the index.html file.
 
-```
+```js
 fs.readFile(filename, function(err, data) {
   res.writeHead(200, {'Content-Type': 'text/html'});
   res.write(data);
@@ -47,7 +47,7 @@ fs.readFile(filename, function(err, data) {
 
 10. Inside the `readFile` function, add code that will display an error message in case the requested URL does not match an exsting file:
 
-```        
+```js 
 if (err) {
   res.writeHead(404, {'Content-Type': 'text/html'});
   return res.end("404 Not Found");
@@ -60,7 +60,7 @@ if (err) {
 
 Your final code in app.js should look like this:
 
-```nodejs
+```js
 var http = require('http');
 var url = require('url');
 var fs = require('fs');
