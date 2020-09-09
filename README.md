@@ -95,7 +95,7 @@ http.createServer(function (req, res) {
 * [Filezilla](https://filezilla-project.org/) (or any FTP program)
 * [Node.js](https://nodejs.org/en/)
 
-Full tutorial URL: https://codeadam.ca/learning/nodejs/nodejs-website.html
+Full tutorial URL: https://codeadam.ca/learning/nodejs-website.html
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
