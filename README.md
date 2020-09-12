@@ -92,7 +92,6 @@ http.createServer(function (req, res) {
 ## Tutorial Requirements:
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
-* [Filezilla](https://filezilla-project.org/) (or any FTP program)
 * [Node.js](https://nodejs.org/en/)
 
 Full tutorial URL: https://codeadam.ca/learning/nodejs-website.html
