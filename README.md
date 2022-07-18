@@ -1,4 +1,4 @@
-# nodejs-website
+# A Sample Node.js Website
 
 This is a sample basic Node.js website using plain HTML files and the built in http and fs modules.
 
