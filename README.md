@@ -96,7 +96,7 @@ http.createServer(function (req, res) {
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Node.js](https://nodejs.org/en/)
 
-Full tutorial URL: https://codeadam.ca/learning/nodejs-website.html
+> Full tutorial URL: https://codeadam.ca/learning/nodejs-website.html
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
