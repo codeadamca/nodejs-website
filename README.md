@@ -89,9 +89,11 @@ http.createServer(function (req, res) {
 }).listen(8080);
 ```
 
-## Tutorial Requirements:
+***
 
-* [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
+## Repo Resources
+
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [Node.js](https://nodejs.org/en/)
 
 Full tutorial URL: https://codeadam.ca/learning/nodejs-website.html
